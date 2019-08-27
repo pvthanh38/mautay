@@ -20,8 +20,8 @@ define('WP_CACHE', false);
  */
 define('MULTISITE', true);
 define('SUBDOMAIN_INSTALL', false);
-define('DOMAIN_CURRENT_SITE', 'localhost');
-define('PATH_CURRENT_SITE', '/wp/models/');
+define('DOMAIN_CURRENT_SITE', 'mautay.com');
+define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
 // ** MySQL settings - You can get this info from your web host ** //
@@ -29,10 +29,10 @@ define('BLOG_ID_CURRENT_SITE', 1);
 define('DB_NAME', 'wp_models');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'wp_models');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', '123456789');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
