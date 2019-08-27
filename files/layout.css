@@ -1,0 +1,153 @@
+.screen-reader-text{display:none;}
+#s-content .page{padding-left: 0;padding-top: 0;}
+.nav-links a{
+	
+	    padding: 0px 5px;
+    text-decoration: none;
+    margin: 0 5px;
+    border: 1px #ddd solid;
+    float: left;
+    text-align: center;
+}
+.nav-links .current{
+	
+	    padding: 0px 5px;
+    text-decoration: none;
+    margin: 0 5px;
+    border: 1px #ddd solid;
+    color: #496DCB;
+    float: left;
+    text-align: center;
+}
+.lookbook{
+position: relative;
+}
+.lookbook h2.gallery{display:none} 
+.lookbook .name{
+display: none;
+}
+.lookbook-line{
+clear:both;
+padding:10px 0 !important;
+}
+.lookbook .item{
+float: left;
+width: 25%;
+position: relative;
+}
+.lookbook .item img{
+height: auto;
+width: 100%;
+}
+.lookbook .item h2{
+position: absolute;
+bottom: 30px;
+font-family: "facebook";
+font-size: 16px;
+text-transform: uppercase;
+color:#FAFAF9;
+width: 200px;
+display: block;
+text-align: center;
+left: 50%;
+margin-left: -100px;
+}
+@media screen and (max-width: 480px){
+    .lookbook .item h2{
+    font-size: 12px;    
+    bottom: 10px;
+    left: 10px;
+    width: auto;
+    margin-left: 0px;
+    }
+}
+.lookbook .item .cap{
+position: absolute;
+bottom: 10%;
+width: 100%;
+}
+.lookbook .item .cap h2 {
+color: #fff;
+font-size: 26px;
+text-transform: uppercase;
+text-align: center;
+}
+.lookbook .item .cap h2 a {
+border: 1px solid #fff;
+color: #fff;
+font-family: "facebook";
+padding: 10px;
+transition: background-color 0.3s ease-in-out 0s
+}
+.lookbook .item:hover .cap h2 a {
+background-color: #fff;
+color: #000; 
+}
+@media (max-width: 700px) {
+    .lookbook .item .cap h2 a{
+    font-size: 14px;
+    padding: 2px;
+    }
+}
+@media (max-width: 360px) {
+    .lookbook .item .cap h2 a{
+    font-size: 10px;
+    padding: 2px;
+    }
+}
+/*.lookbook .item-1{
+width: 33.33%;
+padding-left: 2px;
+}
+.lookbook .item-2{
+width:33.33%;
+padding-right: 2px;
+}
+.lookbook .item-3{
+width:33.33%;
+padding-right: 10px;
+padding-bottom: 10px;
+}
+.lookbook .item-4{
+width:33.33%;
+padding-right: 10px;
+}*/
+/*.lookbook .item-1{
+width: 100%;
+padding-bottom: 6px;
+}
+.lookbook .item-2{
+width:33.33%;
+padding-right: 4px;
+}
+.lookbook .item-3{
+width:33.33%;
+padding-right: 2px;
+padding-left: 2px;
+}
+.lookbook .item-4{
+width:33.33%;
+padding-left: 4px;
+}
+.lookbook .item-5{
+width:33.33%;
+padding-top: 5px;
+padding-right: 2px;
+padding-left: 2px;
+}
+.lookbook .item-6{
+width:33.33%;
+padding-top: 5px;
+padding-left: 4px;
+}
+.lookbook .item-7{
+clear:both;
+width:66.67%;
+padding-top: 6px;
+padding-right: 3px;
+}
+.lookbook .item-8{
+width:33.33%;
+padding-top: 6px;
+padding-left: 3px;
+}*/

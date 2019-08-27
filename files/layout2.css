@@ -1,0 +1,359 @@
+.slick-slider
+{
+position: relative;
+
+display: block;
+box-sizing: border-box;
+
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+
+-webkit-touch-callout: none;
+-khtml-user-select: none;
+-ms-touch-action: pan-y;
+touch-action: pan-y;
+-webkit-tap-highlight-color: transparent;
+}
+
+.slick-list{
+position: relative;
+display: block;
+overflow: hidden;
+padding: 0;
+margin: 0;
+}
+.slick-list:focus
+{
+outline: none;
+}
+.slick-list.dragging
+{
+cursor: pointer;
+cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+-webkit-transform: translate3d(0, 0, 0);
+-moz-transform: translate3d(0, 0, 0);
+-ms-transform: translate3d(0, 0, 0);
+-o-transform: translate3d(0, 0, 0);
+transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+position: relative;
+top: 0;
+left: 0;
+
+display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+display: table;
+
+content: '';
+}
+.slick-track:after
+{
+clear: both;
+}
+.slick-loading .slick-track
+{
+visibility: hidden;
+}
+
+.slick-slide
+{
+display: none;
+float: left;
+height: 100%;
+min-height: 1px;
+}
+.slick-slide img
+{
+display: block;
+margin: 0 auto;
+}
+.slick-slide.slick-loading img
+{
+display: none;
+}
+.slick-slide.dragging img
+{
+pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+display: block;
+}
+.slick-loading .slick-slide
+{
+visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+display: block;
+
+height: auto;
+
+border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+display: none;
+}
+.slick-arrow {
+background: #fff url("../images/icons.png") no-repeat scroll 0 0;
+height: 40px;
+width: 32px;
+position: absolute;
+top: 50%;
+z-index: 9;
+margin-top:-16px;
+}
+.slick-prev, .slick-next{
+border: medium none;
+color: transparent;
+cursor: pointer;
+display: block;
+font-size: 0;
+}
+.slick-prev {
+background-position: 0 0;
+left: 0;
+opacity: 1;
+-webkit-transition: opacity 0.5s ease;
+-moz-transition: opacity 0.5s ease;
+-ms-transition: opacity 0.5s ease;
+-o-transition: opacity 0.5s ease;
+transition: opacity 0.5s ease;
+}
+.slick-next {
+background-position: -32px 0;
+right: 0;
+opacity: 1; 
+-webkit-transition: opacity 0.5s ease;
+-moz-transition: opacity 0.5s ease;
+-ms-transition: opacity 0.5s ease;
+-o-transition: opacity 0.5s ease;
+transition: opacity 0.5s ease;
+}
+
+ul.thumbs {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+ul.thumbs li {
+	float: left;
+	list-style: none;
+    display: block;
+    
+    margin-right: 2.35765%;
+    padding-bottom: 2.35765%;
+    width: 14.702%;
+}
+ul.thumbs li:nth-child(6n){
+margin-right:0;
+}
+a.thumb {
+	display: block;
+	border: 1px solid #EFEDEE;
+}
+ul.thumbs li.selected a.thumb {
+	background: #000;
+}
+a.thumb:focus {
+	outline: none;
+}
+ul.thumbs img {
+	border: none;
+	display: block;
+	
+}
+div.pagination {
+	clear: both;
+}
+div.navigation div.top {
+	margin-bottom: 12px;
+	height: 11px;
+}
+div.navigation div.bottom {
+	margin-top: 12px;
+}
+div.pagination a, div.pagination span.current, div.pagination span.ellipsis {
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding: 4px 7px 2px 7px;
+	border: 1px solid #ccc;
+}
+div.pagination a:hover {
+	background-color: #eee;
+	text-decoration: none;
+}
+div.pagination span.current {
+	font-weight: bold;
+	background-color: #000;
+	border-color: #000;
+	color: #fff;
+}
+div.pagination span.ellipsis {
+	border: none;
+	padding: 5px 0 3px 2px;
+}
+
+.models-category{
+border-left:1px #ccc solid;
+padding-right: 10px;
+}
+.content .none{
+border-left:none;
+}
+.content .none2{
+padding:0 0 0 10px;
+}
+.img-hover img:hover{
+/*border: 1px solid #2C61A8;*/
+-moz-box-shadow: 3px 3px 4px #CCCCCC;
+-webkit-box-shadow: 3px 3px 4px #CCCCCC;
+box-shadow: 3px 3px 4px #CCCCCC;
+/* For IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#CCCCCC')";
+/* For IE 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#CCCCCC');
+}
+.models-category .models-content {
+float: left;
+margin-top: 5px;
+width: 100%;
+}
+.models-category .models-content .models-top {
+}
+.models-category .models-content .models-other {
+clear:both;
+text-align: justify;
+}
+.models-other ul li{
+list-style:inside disc
+}
+.models-list{
+min-height:100px;
+}
+.models-list li{
+float:left;
+list-style:none !important;
+margin-right: 2.35765%;
+padding-bottom: 2.35765%;
+width: 14.702%;
+text-align: center;
+}
+.models-list li:nth-child(6n){
+margin-right:0;
+}
+.models-list li h4 a{
+text-transform:uppercase;
+color:#999;
+white-space: nowrap;
+}
+.models{
+padding:0 0;
+}
+.models-info{
+clear: both;
+margin:20px 0;
+border-bottom: 1px #ddd solid;
+}
+.models-info h1{
+white-space:nowrap;
+font-size: 24px;
+}
+.models-info .info{
+margin: 15px 0;
+}
+.lastname{
+color:#de3435;
+}
+.models-info .info .details{
+clear:both;
+color:#57585c;
+text-align:center
+}
+.models-info .info .details ul{
+display: block;
+list-style: none;
+}
+.models-info .info .details ul li{
+display: inline-table;
+font-style:italic;
+padding: 1px 10px;
+font-size: 16px;
+}
+
+.section-container.auto > section > .title a, .section-container.auto > .section > .title a{
+font-size: 1em;
+padding: 0.8em;
+}
+
+.models-other{
+clear:both;
+padding-top:30px;
+}
+.models-other span, h3 span{
+font-size:10px;
+color:#ccc;
+}
+.other-top img, .models-other ul img, .other-list img {
+float: left;
+margin-right: 5px;
+overflow: hidden;
+padding: 1px;
+vertical-align: middle;
+}
+.other-list{
+min-height:130px;
+}
+.category-line{
+clear:both;
+background:#eee;
+height:1px;
+width:100%;
+margin:10px;
+}
+#icons{
+color:#494d55;
+text-align: center;
+}
+#icons li{
+display: inline;
+padding: 0 10px;
+text-transform: uppercase;
+font-size: 16px;
+}
+
+@media screen and (max-width: 768px){
+    .models-list li, ul.thumbs li{
+    float:left;
+    list-style:none !important;
+    margin-right: 2.35765%;
+    padding-bottom: 2.35765%;
+    width: 31.7616%;
+    text-align: center;
+    }
+    .models-list li:nth-child(3n), ul.thumbs li:nth-child(3n){
+    margin-right:0;
+    }
+    .models-info .info .details ul li{
+    padding: 6px;
+    }
+}
+@media (min-width: 1200px) {
+    .slick-list{
+    margin: 20px 125px;
+    }
+}

@@ -1,0 +1,137 @@
+/*@media (max-width: 768px) {
+	.navbar-default{
+	background:#b40808  !important;
+	}
+	.navbar-nav > li > a{
+		padding:5px 10px;
+	}
+	#menu{
+	padding-top:20px;
+	}
+	
+	.navbar{
+	position:inherit;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+	.navbar-default{
+	background:#ff0000  !important;
+	}
+	.navbar-nav > li > a{
+		padding:5px 10px;
+		font-size:12px;
+		padding-top:5px  !important;
+	}	
+	#menu{
+	padding-top:20px;
+	}
+	
+}*/
+.navbar-default{
+margin-left:0;
+background:none;
+border:none;
+
+}
+.navbar-brand{
+float: left;
+padding: 0;
+}
+.navbar-header{
+width:100%;
+background: none;
+border-color: #e7e7e7;
+}
+.navbar-collapse{
+padding-left:0px;
+z-index: 9999;
+}
+.navbar{
+margin-bottom:0;
+min-height:48px;
+border-radius:0;
+}
+.navbar-nav{
+margin-left:0;
+}
+.navbar-nav > li > a{
+padding:8px 15px 8px 15px;
+}
+.navbar-toggle {
+float: left;
+padding: 7px;
+margin-top: 7px;
+margin-right: 5px;
+}
+.navbar-default .navbar-nav > li > a{
+color:#494D55;
+
+}
+.navbar-collapse .navbar-nav.navbar-right:last-child{
+margin-right:0px;
+}
+.nav li a{
+outline:none;
+text-transform:uppercase;
+letter-spacing:1px;
+}
+ul.nav li.none {
+border:none;
+}
+.nav li a span span{
+display: block;
+padding:0 0px;
+font-weight: bold;
+}
+.nav li ul li a {
+display: block;
+line-height: 1.5;
+padding:8px 15px;
+font-size:11px;
+font-weight:normal;
+text-transform:uppercase;
+letter-spacing:1px;	    
+}
+.nav ul {
+position: absolute;
+width: 170px;
+display: none;
+background: none repeat scroll 0 0 #f0f1f3;
+z-index:999
+}
+.nav li ul li{
+background: none repeat scroll 0 0 #f0f1f3;
+width: 170px;    
+border-bottom: 1px solid #d9dadb;  
+}
+.nav li:hover, .nav li a.selected{
+background: url("../images/menu-hover.jpg") repeat-x scroll center top;
+cursor:pointer;
+/*z-index:9999*/
+}
+.nav li ul a:hover, .nav li ul li a.selected{
+background: #e3e4e4;
+/*z-index:9999*/
+}
+.nav ul ul {
+top: 0;
+}
+
+.nav li ul ul {
+left: 170px !important;
+margin: 0px;
+}
+
+.nav li:hover ul ul, 
+.nav li:hover ul ul ul,
+.nav li:hover ul ul ul ul {
+display: none;
+}
+
+.nav li:hover ul,
+.nav li li:hover ul,
+.nav li li li:hover ul,
+.nav li li li li:hover ul {
+display: block;
+}

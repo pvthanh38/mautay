@@ -1,0 +1,236 @@
+.article-category-1 {
+float:left;
+margin-bottom:10px;
+overflow: hidden;
+width: 100%;
+}
+.article-category-2 {
+float:left;
+padding:0 10px;
+overflow: hidden;
+width: 45%;
+border-left:1px #ccc solid;
+}
+.article-category-3 {
+float:left;
+padding-right:30px;
+margin-bottom:10px;
+overflow: hidden;
+width: 270px;
+height:300px;
+}
+.article-category-4 {
+float:left;
+padding:0 10px;
+margin:10px 0;
+overflow: hidden;
+width: 22%;
+border-left:1px #ccc solid;    
+}
+.article-category{
+border-left:1px #ccc solid;
+padding-right: 10px;
+}
+.blog-category-3 {
+float:left;
+padding-right:30px;
+margin-bottom:10px;
+overflow: hidden;
+width: 260px;
+height:550px;
+background: url(../files/shadow.png) bottom left no-repeat;
+}
+.content .none, .content .none2{
+border-left:none;
+}
+.img-hover img:hover{
+/*border: 1px solid #2C61A8;*/
+-moz-box-shadow: 3px 3px 4px #CCCCCC;
+-webkit-box-shadow: 3px 3px 4px #CCCCCC;
+box-shadow: 3px 3px 4px #CCCCCC;
+/* For IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#CCCCCC')";
+/* For IE 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#CCCCCC');
+}
+.article-category .article-content {
+float: left;
+margin-top: 5px;
+width: 100%;
+}
+.article-category .article-content .article-top {
+}
+.article-category .article-content .article-other {
+clear:both;
+text-align: justify;
+}
+.read-more{
+float:left;
+padding:10px 0;
+}
+.article-other ul li{
+list-style:inside disc
+}
+.article-top img, .article-other ul img{
+float: left;
+margin-right: 15px;
+overflow: hidden;
+vertical-align: middle;
+border:5px #efedee solid;
+}
+.article-top .bg-img{
+clear:both;
+background: url(../images/shadow-img.png) bottom right no-repeat;
+width:218px;
+height:9px;
+position:relative;
+padding-bottom:-20px;
+}
+.article-top .brief{
+text-align:justify;
+height:100px;
+}
+.article-list{
+min-height:100px;
+}
+.section-container.auto > section > .title a, .section-container.auto > .section > .title a{
+font-size: 1em;
+padding: 0.8em;
+}
+.other-cat {
+margin-bottom: 10px;
+overflow: hidden;
+width: 100%;
+}
+.other-cat .other-content {
+float: left;
+margin-top: 5px;
+width: 100%;
+}
+.other-cat .other-content .other-top {
+}
+.other-cat .other-content .article-other {
+clear:both;
+text-align: justify;
+}
+.article-other{
+clear:both;
+}
+.article-other span, span.date{
+font-size:10px;
+color:#ccc;
+}
+.other-top img, .article-other ul img, .other-list img {
+float: left;
+margin-right: 5px;
+overflow: hidden;
+padding: 1px;
+vertical-align: middle;
+}
+.other-list{
+min-height:130px;
+}
+.category-line{
+clear:both;
+background:none !important;
+height:1px;
+width:100%;
+margin:10px;
+}
+
+.read-more a {
+    color: #ED2980;
+    font-size: 13px;
+}
+#icons{
+cursor:pointer;
+clear:both;
+display: inline-block;
+margin-top: 5px;
+padding-bottom: 5px;
+width: 100%;
+text-align: left;
+}
+#icons .view{
+display: inline-block;
+background: url("../image/view.gif") no-repeat scroll left center transparent;
+padding-left:20px;
+color:#494D55;
+}
+#icons .comment{
+display: inline-block;
+background: url("../image/comment.gif") no-repeat scroll 0 0 transparent;
+padding-left: 20px;
+height:16px;
+margin-left:20px;
+}
+.comment-reply-title{
+background: url("../files/bg-leave-comment.png") no-repeat scroll 0 0 transparent;
+width:100%;
+height:33px;
+margin-top:10px;
+}
+.comment-reply-title span{
+padding-left:15px;
+top:3px;
+position:relative;
+font-size:14px;
+text-transform:uppercase;
+}
+.parent0{
+background:#F8F8F8;
+}
+.parent1{
+background:#E8E8E8;
+}
+
+.comment-list .children {
+margin-left: 20px;
+}
+.comment-list, .comment-list .children{
+list-style:none !important;
+padding:0;
+}
+.content ol li.parent0, .content ol li.parent1{
+list-style:none;
+border-top:1px #ccc solid;
+border-bottom:1px #ccc solid;
+padding:10px;
+margin:2px 0;
+}
+.content ol li.comment{
+list-style:none;
+border-top:1px #fff dotted;
+padding-top:10px;
+}
+.comment-total{
+font-size: 15px;
+font-weight: bold;
+padding:10px 0;
+}
+.comment_name{
+font-weight:bold;
+}
+.comment_name span{
+font-size:11px;
+color:#aaa;
+font-weight:normal
+}
+.comment-form .input {
+border: 1px solid #BBBBBB;
+font: 1.1em arial,helvetica,verdana,sans-serif;
+padding: 2px;
+}
+.comment-form p textarea {
+background: none repeat scroll 0 0 #FFFFFF;
+border: 1px solid #CCCCCC;
+color: #333333;
+height: 155px;
+margin-top: 3px;
+padding: 2px 0;
+width: 100%;
+}
+.error input, input.error, .error textarea, textarea.error{
+background-color: #F9E6E6;
+border-color: #C60F13;
+}
